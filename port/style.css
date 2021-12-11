@@ -1,0 +1,63 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+@portfolio "utf-8"; 
+
+/* CSS Portfolio */ 
+body{
+	background-color:none; 
+	margin:0px;
+	padding:0px; 
+	
+}
+
+html{ 
+font-size:10px;
+font-family:'Montserrat', sans-serif; 
+} 
+ul{ 
+list-style:none; 
+}
+a { 
+text-decoration: none; 
+} 
+
+section{ 
+width:10%; 
+height:95vh; 
+background-image:none;
+background-repeat:no-repeat; 
+background-size:cover; 
+background-position: top center;
+position: relative;
+margin:-7% auto 20px auto; 
+position:relative; 
+justify-content: space-evenly; 
+align-items: center;
+}
+
+
+.about-container{ 
+width:80%; 
+height: 330px; 
+
+}
+
+
+
+.about-container img{ 
+height:100px;
+} 
+.about-text{ p: nth-child(1){ 
+color:#403e3e; 
+font-family:myriad pro; 
+font-weight: bold; 
+font-size:23px; 
+line-height: 0px; 
+} 
+.img{ 
+width:500px; 
+}
+
+Margin-top: 30px;

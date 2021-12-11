@@ -1,0 +1,150 @@
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+*{ 
+Padding: 0;
+Margin: 0; 
+box-sizing: border-box; 
+}
+html{ 
+font-size:10px;
+font-family:'Montserrat', sans-serif; 
+} 
+
+a{ 
+text-decoration: none; 
+} 
+.container {
+min-height: 100vh; 
+width: 100%; 
+display: flex; 
+align-items: center; 
+justify-content:center; 
+}
+
+/* hero section */ 
+#hero{ 
+background-image:url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c0e5b338-5d2f-4678-9e52-82139763fa01/d5lrca7-d4ce4825-fb73-4ddd-aad2-fe5aa7fb7fcd.png/v1/fill/w_900,h_682,q_75,strp/background_autumn_mountain_by_flaminblue-d5lrca7.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi9jMGU1YjMzOC01ZDJmLTQ2NzgtOWU1Mi04MjEzOTc2M2ZhMDEvZDVscmNhNy1kNGNlNDgyNS1mYjczLTRkZGQtYWFkMi1mZTVhYTdmYjdmY2QucG5nIiwid2lkdGgiOiI8PTkwMCIsImhlaWdodCI6Ijw9NjgyIn1dXX0.YkwQOhBTHKUeKwqOPQyi2JXekIfCmKNtrOQ8SMA8L30);
+background-size:cover; 
+background-position: top center;
+position: relative; 
+z-index:1; 
+} 
+#hero: :after { 
+content"''; 
+Position:absoulute; 
+left:0; 
+top: 0; 
+height: 100%; 
+width:100%; 
+background-color: black; 
+opacity:.7; 
+z-index:-1; 
+}
+#hero h1{
+	display: blcok; 
+	width: fit-content; 
+	font-size: 4rem; 
+	position: relative; 
+	color: white; 
+	animation:text_reveal .1s ease forwards;
+	animation-delay:1.5s;
+}
+#hero h1:nth-child(1){ 
+animation-delay:1.5 s; 
+}
+#hero h1:nth-child(2){ 
+animation-delay:2.5 s; 
+}
+#hero h1:nth-child(3){ 
+animation-delay:3 s; 
+}
+
+#hero h1 span{ 
+position:absoulute; 
+top: 0; 
+left: 0; 
+height: 100%; 
+width:100%; 
+background-color: crimson; 
+animation:text_reveal_box 1s ease; 
+animation-delay: 1s ease;
+animation-delay:1s; 
+	
+} 
+	}
+#hero h1:nth-child(1){ 
+animation-delay:1.5 s; 
+}
+#hero h1:nth-child(2){ 
+animation-delay:2.5 s; 
+}
+#hero h1:nth-child(3){ 
+animation-delay:3 s; 
+}
+
+#hero .cta{ 
+display: inline-block; 
+padding: 10px 30px ; 
+color: red; 
+background-color: transparent; 
+border: 2px solid crimson;
+font-size:2rem; 
+text-transform:uppercase; 
+letter-spacing: .1rem; 
+Margin-top: 30px; 
+transition:.3s ease ;
+transition-property: background-color, color;
+}
+
+#hero .cta:hover { 
+color: blue; 
+background-color: crimson; 
+}
+/*End Hero Section*/ 
+
+/* Intrest  section */ 
+
+
+
+
+
+
+/* End Intrest section */
+
+
+/* keyframes*/ 
+ @keyframes text_reveal_box{
+ 50%{
+	 width:100%; 
+ }  
+width:100%; 
+ left: 0;}
+ 100% { 
+width: 0; 
+left:100%; 
+} 
+ }
+
+
+
+@keyframes text_reveal
+	100%{ 
+	color: white;
+
+/*End keyframes*/ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
